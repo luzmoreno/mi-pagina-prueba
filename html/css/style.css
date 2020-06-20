@@ -587,7 +587,7 @@ section.page-banner-section.contact-banner {
       font-family: "Poppins", sans-serif;
       border-bottom: 1px solid transparent; }
     .page-list ul li a:hover {
-      color: #0080ff;
+      color: #bbff00;
       border-bottom: 1px solid #0080ff; }
   .page-list ul li:before {
     content: '\f105';
@@ -784,8 +784,8 @@ section.services-section {
   /*
      * Set a base background for 1x environments.
      */
-  background: #111 url("../upload/banners/ban1.jpg") center bottom no-repeat;
-  background-size: cover;
+  background: #111 url("../upload/banners/ban1.jpeg") right bottom no-repeat;
+  background-size:cover;
   /*
      * Create an @2x-ish media query.
      */
@@ -811,7 +811,7 @@ section.services-section {
     section.services-section .services-box .services-post {
       margin-bottom: 70px; }
       section.services-section .services-box .services-post span, section.services-section .services-box .services-post i {
-        color: #0080ff;
+        color: #272323;
         font-size: 42px;
         display: inline-block;
         float: left;
@@ -837,7 +837,7 @@ section.services-section2 {
         margin-bottom: 30px; }
         section.services-section2 .services-box .services-post h2 i, section.services-section2 .services-box .services-post h2 span {
           display: inline-block;
-          color: #0080ff;
+          color: #181d22;
           font-size: 36px;
           margin-right: 20px;
           float: left; }
