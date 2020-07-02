@@ -5,7 +5,7 @@
 
 <html lang="en" class="no-js">
 <head>
-	<title>consigue tu sitio</title>
+	<title>Consigue tu sitio</title>
 
 	<meta charset="utf-8">
 
@@ -82,18 +82,19 @@
 					<div class="row">
 						<div class="col-md-8">
 							<div id="map"></div>
-							<form id="contact-form">
+							<form id="contact-form" action="https://formspree.io/luz.morenopriorio@gmail.com" method="post"></form>>
 								<h2>Saludos!</h2>
 								<div class="row">
 									<div class="col-md-6">
 										<input name="name" id="name" type="text" placeholder="Nombre*">
 									</div>
 									<div class="col-md-6">
-										<input name="mail" id="mail" type="text" placeholder="Email*">
+										<input name="_replyto" id="mail" type="text" placeholder="Email*">
 									</div>
 								</div>
 								<input name="tel-number" id="tel-number" type="text" placeholder="su telefono">
 								<textarea name="comment" id="comment" placeholder="Tu mensaje*"></textarea>
+								<input type="hidden" name="_subject" id="email-subject" value="Contactos del sitio">
 								<input type="submit" id="submit_contact" value="Send Message">
 								<div id="msg" class="message"></div>
 							</form>
